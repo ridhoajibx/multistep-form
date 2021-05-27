@@ -1,0 +1,62 @@
+.frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: auto 20px;
+}
+
+.form-control {
+    margin-bottom: .5rem;
+    min-width: 750px;
+}
+
+.label {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.hidden {
+    display: none;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+button {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: .8rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary{
+    background-color: #185adb;
+    color: aliceblue;
+    margin: 1rem;
+}
+.btn-primary:hover {
+    background-color: #005f99;
+    color: aliceblue;
+    margin: 1rem;
+}
+
+.btn-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
